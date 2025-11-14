@@ -1,48 +1,51 @@
-# 🔍 GitHub Profile Viewer
+## 🔍 GitHub Profile Viewer
 
-A simple web app to view public GitHub profiles by entering a username. Built using **HTML, CSS, and JavaScript**.
-
----
-
+A fast and minimal GitHub profile lookup tool built using HTML, Tailwind CSS, and JavaScript.
+Simply enter any GitHub username and instantly view their public profile details—clean, responsive, and easy to use.
 
 ## 🖥️ Screenshot
 
-![Desktop Screenshot](/img.png)
-
---- 
+![App Screenshot](https://raw.githubusercontent.com/rashiddshaikh/github-profile-viewer/main/img.png)
 
 
-## 🔗 Live Demo
+## 🌐 Try it here:
+👉 https://github.com/rashiddshaikh/github-profile-viewer/
 
-[👉 Click to View Live](https://adityadomle.github.io/GitHub-Profile-Viewer/)
+✨ Features
 
----
+- 🔍 Search any GitHub username
+- 🧑‍💻 Fetches real-time data using GitHub REST API
+- 📄 Displays:
+  - Profile image
+  - Name & Bio
+  - Followers & Following
+  - Public Repositories
+  - Account creation date
+  - Profile link
+- 📱 Fully responsive design
+- ⚡ Fast, lightweight, and beginner-friendly
 
-## 💡 Features
+🛠️ Technologies Used
 
-- Search any GitHub user
-- Shows profile picture, name, bio, followers, repos, and more
-- Clean and responsive UI
-- Uses GitHub REST API
-
----
-
-## 🛠 Technologies Used
-
-- HTML
-- CSS
-- JavaScript
-- GitHub API
+- HTML5
+- Tailwind CSS
+- JavaScript (Fetch API)
+- GitHub REST API
 
 
+## 🚀 Getting Started
+1️⃣ Clone the repository
+```bash
+git clone https://github.com/adityadomle/GitHub-Profile-Viewer.git
+```
+2️⃣ Open the project
+```bash
+cd GitHub-Profile-Viewer
+```
+3️⃣ Run the project  
 
-
----
-
-## 🚀 How to Run
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/adityadomle/GitHub-Profile-Viewer.git
-
+   Open the project folder.  
+   Locate the `index.html` file.  
+   Double-click it to open in your browser.  
+   (No server required — it runs locally!)
 
