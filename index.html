@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub User Finder</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-gray-950 text-white font-sans min-h-screen flex items-center justify-center p-4">
+    <div class="w-full max-w-2xl space-y-6"> 
+        <!-- Header -->
+        <header class="text-center">
+            <h1 class="text-4xl font-bold tracking-tight">GitHub User Finder</h1>
+            <p class="text-gray-400 text-sm mt-2">Search and view GitHub user profiles in style</p>
+        </header>
+
+        <!-- Search Bar -->
+        <div class="flex items-center gap-2 bg-gray-800 rounded-lg p-2 focus-within:ring-2 focus-within:ring-blue-500">
+            <input type="text" placeholder="Enter GitHub username..."
+                class="usernameinp flex-1 bg-transparent outline-none text-white placeholder-gray-400 px-3 py-2" />
+            <button class="search bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-md text-sm font-medium transition">
+                Search
+            </button>
+        </div>
+
+        <!-- Profile Card (Dummy Data) -->
+        <div class="card bg-gray-900 border border-gray-700 rounded-xl p-6 shadow-lg flex flex-col sm:flex-row gap-6">
+
+        </div>
+
+        <!-- Footer -->
+<footer class="mt-12 text-center">
+    <div class="h-px w-full bg-gradient-to-r from-transparent via-blue-600 to-transparent opacity-40 mb-6"></div>
+
+
+
+    <div class="flex items-center justify-center gap-6 mt-4">
+        <a href="https://github.com/rashiddshaikh/" target="_blank" 
+           class="text-gray-400 hover:text-white transition transform hover:scale-110">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 
+                3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 
+                0-.285-.01-1.04-.015-2.04-3.338.726-4.042-1.61-4.042-1.61 
+                -.546-1.387-1.333-1.757-1.333-1.757-1.089-.744.084-.729.084-.729 
+                1.205.084 1.84 1.237 1.84 1.237 1.07 1.834 2.807 
+                1.304 3.492.997.108-.776.418-1.305.762-1.604-2.665-.3-5.466-1.334-5.466-5.93 
+                0-1.31.469-2.381 1.236-3.221-.135-.303-.54-1.523.105-3.176 
+                0 0 1.005-.322 3.3 1.23a11.48 11.48 0 0 1 3.003-.404 
+                c1.02.005 2.045.138 3.003.404 2.28-1.552 3.285-1.23 
+                3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 
+                1.23 1.911 1.23 3.221 0 4.61-2.807 5.625-5.48 
+                5.92.429.372.81 1.102.81 2.222 0 1.604-.015 
+                2.896-.015 3.286 0 .315.21.69.825.57 
+                C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+            </svg>
+        </a>
+
+        <a href="https://www.linkedin.com/in/rashidshaikh-dev/" target="_blank"
+           class="text-gray-400 hover:text-white transition transform hover:scale-110">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 
+                 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V24h-4V8zm7.5 
+                 0h3.8v2.2h.1c.5-.9 1.8-2.2 3.8-2.2 4.1 0 4.9 2.7 4.9 
+                 6.2V24h-4v-7.9c0-1.9 0-4.4-2.7-4.4-2.7 0-3.1 2.1-3.1 
+                 4.3V24h-4V8z"/>
+            </svg>
+        </a>
+
+    </div>
+
+    <p class="text-gray-500 text-xs mt-4">
+        © <span id="year"></span> Your Name · All Rights Reserved
+    </p>
+</footer>
+    </div>
+        <script src="script.js"></script>
+            <script>
+        document.getElementById("year").innerText = new Date().getFullYear();
+    </script>
+   
+</body>
+
+</html>
